@@ -94,9 +94,11 @@ svg{
 
 
 /* MAIN */
+
+
 .twosection{
  
-    margin-top: 40px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -110,7 +112,9 @@ svg{
 .flowp{
     position: absolute;
     top: -31px;
-    left: 10px;
+    left: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
 
 }
 .flexdive{
@@ -254,9 +258,18 @@ aside{
     color: #333;
 } 
 
+.firstlii{
+    
+    position: relative;
+    right: 40px;
+}
+.border{
+    margin-top: 40px;
+    border-top: 1px solid #80808033;
+}
 .secondli {
 position: relative;
-right: 74px;
+right: 114px;
 }
 h4{
     text-align: center;
@@ -266,4 +279,113 @@ button {
 }
 i{
     opacity: 0.5;
+}
+
+.contanier-flexitem .div1{
+    width: 120px;
+}
+.contanier-flexitem .div2{
+    width: 100px;
+}
+.contanier-flexitem .div3{
+    width: 100px;
+}
+.contanier-flexitem .div4{
+    width: 140px;
+}
+.contanier-flexitem .div5{
+    width: 80px;
+}
+.contanier-flexitem .div6{
+    width: 120px;
+}
+.contanier-flexitem .div7{
+    width: 140px;
+}
+.contanier-flexitem .div8{
+    width: 120px;
+}
+.contanier-flexitem .div9{
+    width: 100px;
+}
+
+/* SEZIONE IMMAGINI PICCOLE */
+.trending{
+    left: 80px;
+    position: relative;
+    bottom: -73px;
+
+}
+.zerouno , .zerodue ,.zerotre ,.zeroquattro,.zerocinque,.zerosei{
+    font-size: 2.2em;
+    position: relative;
+    opacity: 0.2;
+}
+.zerouno{
+    top: 20px;
+    right: 120px;
+}
+.zerodue{
+    top: 20px;
+    right: 80px;
+}
+.zerotre{
+    top: 22px;
+    right: 68px;
+}
+.zeroquattro{
+    top: 18px;
+    right: 75px;
+}
+.zerocinque{
+    top: 18px;
+    right: 75px;
+}
+.zerosei{
+    top: 16px;
+    right: 75px;
+}
+
+.firstimg{
+  
+   
+    position: absolute;
+    width: 20px;
+    left: 138px;
+    top: 40px;;
+}
+.secondimg
+{
+    position: absolute;
+    width: 25px;
+
+    
+   right: 865px;
+    top: 36px;
+    
+}
+.thirdimg{
+    position: absolute;
+    width: 25px;
+    
+    top: 28px;
+    right: 433px;
+}
+.fourimg{
+    position: absolute;
+    width: 25px;
+      left: 130px;
+    top: 30px;
+}
+.fiveimg{
+    position: absolute;
+    width: 25px;
+    left: 540px;
+    top: 28px;
+}
+.siximg{
+    position: absolute;
+    width: 25px;
+   right: 430px;
+    top: 26px;
 }
