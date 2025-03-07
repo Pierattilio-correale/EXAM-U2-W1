@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="./base_di_partenza/assets/css/style.css" />
   </head>
   <body>
-    <header>
+    <header id="change-color">
       <img src="./base_di_partenza/assets/imgs/svg/logo.svg" />
       <nav>
         <p>Our Story</p>
         <p>Membership</p>
         <p>Write</p>
         <p>Sign In</p>
-        <button>Get Started</button>
+        <button id="button-changecolor">Get Started</button>
       </nav>
     </header>
     <main>
@@ -9522,5 +9522,26 @@
         </div>
       </section>
     </main>
+    <script>
+      window.addEventListener("scroll", function () {
+        let header = document.getElementById("change-color");
+
+        if (window.scrollY > 50) {
+          header.classList.add("newcolor");
+        } else {
+          header.classList.remove("newcolor");
+        }
+      });
+
+      window.addEventListener("scroll", function () {
+        let button = document.getElementById("button-changecolor");
+
+        if (window.scrollY > 50) {
+          button.classList.add("newcolorb");
+        } else {
+          button.classList.remove("newcolorb");
+        }
+      });
+    </script>
   </body>
 </html>
