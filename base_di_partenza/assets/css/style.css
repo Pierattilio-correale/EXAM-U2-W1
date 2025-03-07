@@ -1,0 +1,269 @@
+
+/* HEADER E NAVBAR */
+
+header{
+    background-color:#FFC017 ;
+    border-bottom: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+}
+header img{
+    margin-left: 80px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+   
+}
+
+nav p {
+    margin-left: 20px;
+}
+nav button {
+    margin-right: 120px;
+    margin-left: 20px;
+    border: 1px ;
+    border-radius: 4em;
+    background-color: black;
+    color: white;
+   padding-top: 10px ;
+   padding-bottom: 10px;
+   padding-left: 12px;
+   padding-right: 12px;
+}
+
+
+/* FIRST SECTION */
+.first-section{
+    background-color: #FFC017;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+
+width: 100%;
+
+}
+svg{
+
+ 
+   
+
+    position: relative;
+    left: 81px !important;
+    height: 500px !important;
+    width: 700px !important;
+
+}
+.first-section button {
+    background-color: black;
+    border: 1px ;
+    border-radius: 4em;
+    color: white;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    padding-left: 38px;
+    padding-right: 38px;
+    font-size: 20px;
+}
+.firstdiv-section{
+    margin-bottom: 100px;
+}
+.firstdiv-section button{
+    margin-left: 60px;
+
+}
+.firstdiv-section h1{
+    font-size: 6em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+   
+   
+}
+.firstdiv-section p{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+
+}
+
+
+/* MAIN */
+.twosection{
+ 
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  
+    
+}
+.flowp{
+    position: absolute;
+    top: -31px;
+    left: 10px;
+
+}
+.flexdive{
+    display: flex;
+    flex-direction: column;
+}
+.primap{
+    font-size: 0.8em;
+    margin-bottom: 10px;
+} 
+
+.secondap{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.terzap{
+    opacity: 0.5;
+}
+.oneone{
+    margin-left: -50px;
+}
+
+.oneone3{
+    margin-right: -64px;
+}
+
+/* ZONA ARTICLE */
+#ultimate-section{
+    border-top: 1px solid gray; 
+    margin-top: 40px;
+    
+}
+.flex-container-article{
+ 
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+flex-direction: column;
+margin-left: 100px;
+width: 600px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+article img{
+    width: 200px;
+
+}
+aside {
+    
+}
+.flexstyle{
+    display: flex;
+
+
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.columnph3{
+    display: flex;
+    flex-direction: column;
+}
+.flexp-button{
+    display: flex;
+
+}
+.flexp-button button{
+    margin-left: 20px;
+    border: 1px ;
+    background-color: #F2F3F3 ;
+    border-radius: 4em;
+    margin-top: 20px;
+    color: #757575;
+}
+.marginp,
+.h3article{
+margin-top: 20px;
+}
+.h3article{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* ASIDE */
+
+aside{
+ 
+    margin-top:60px ;
+    margin-right: 80px;
+    position: relative;
+
+}
+ .contanier-flexitem div{
+    border: 1px solid #80808033;
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #757575;
+}
+.contanier-flexitem{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.container-flexitem div:hover {
+    background-color: #f0f0f0;
+}
+
+.list-item {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.list-item ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.list-item li {
+    cursor: pointer;
+    color: #666;
+    transition: color 0.3s;
+}
+
+.list-item li:hover {
+    color: #333;
+} 
+
+.secondli {
+position: relative;
+right: 74px;
+}
+h4{
+    text-align: center;
+}
+button {
+    cursor: pointer;
+}
+i{
+    opacity: 0.5;
+}
