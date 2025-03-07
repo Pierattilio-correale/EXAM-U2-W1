@@ -1,6 +1,8 @@
 
 /* HEADER E NAVBAR */
 
+    
+   
 header{
     background-color:#FFC017 ;
     border-bottom: 2px solid gray;
@@ -47,6 +49,9 @@ nav button {
 width: 100%;
 
 }
+
+   
+
 svg{
 
  
@@ -402,4 +407,34 @@ header {
 }
 .newcolorb{
     background-color: green;
+}
+
+
+
+/* EXTRA ANIMATIONA */
+@keyframes animation-m{
+    0%{
+     transform: translateX(-40px)  ;
+     opacity: 1;
+     
+    }
+    25%{
+        transform: translateX(40px)  ;
+        opacity: 0.4;
+    }
+    50%{
+        transform: translateX(0px) ;
+        opacity: 0.6;
+    }
+    75%{
+        transform: translateX(40px) ;
+        opacity: 0.4;
+    }
+    100%{
+        transform: translateX(0px) ;
+        opacity: 1;
+    }
+}
+svg{
+animation: animation-m 10s infinite;
 }
