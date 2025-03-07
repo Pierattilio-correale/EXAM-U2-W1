@@ -411,7 +411,7 @@ header {
 
 
 
-/* EXTRA ANIMATIONA */
+/* EXTRA ANIMATION */
 @keyframes animation-m{
     0%{
      transform: translateX(-40px)  ;
@@ -420,7 +420,7 @@ header {
     }
     25%{
         transform: translateX(40px)  ;
-        opacity: 0.4;
+        opacity: 0.2;
     }
     50%{
         transform: translateX(0px) ;
@@ -428,7 +428,7 @@ header {
     }
     75%{
         transform: translateX(40px) ;
-        opacity: 0.4;
+        opacity: 0.2;
     }
     100%{
         transform: translateX(0px) ;
